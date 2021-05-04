@@ -18,6 +18,20 @@ Build your docker image
 docker build -t <tag-name> .
 ```
 
+### Setup your e-mail
+
+1. Make a copy of `maillist_example.csv`:
+
+```sh
+cp maillist_example.csv maillist.csv
+```
+
+2. Add your recipients and your messages to the `maillist.csv` file that was created.
+
+3. Create a file named `mail.txt` and add your e-mail to it.
+
+4. Create a file named `pw.txt` and add your password to it.
+
 ### Run your script
 
 Run your script.
